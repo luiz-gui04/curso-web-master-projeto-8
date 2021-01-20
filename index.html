@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Projeto_09</title>
+</head>
+<body>
+  <section class="header-master">
+    <header>
+      <div class="container">
+        <div class="logo"></div>
+        <nav class="desktop">
+          <ul>
+            <li class="selected"><span></span><a href="">Invisalign</a></li>
+            <li><span></span><a href="">Benefícios</a></li>
+            <li><span></span><a href="">Serve para mim?</a></li>
+            <li><span></span><a href="">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="telefone-header">
+          <span>(48) 3222-0591</span>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </header>
+    <div class="content-header">
+      <div class="container">
+        <div class="one">
+          <h2>Seu sorriso perfeito através de um tratamento discreto e inovador, em Florianópolis.</h2>
+          <p>Alinhe seus dentes com conforto,praticidade e liberdade! <b>Deixe seu email</b> para que a Dra. Leda possa entrar em contato e agendar uma avaliação gratuita.</p>
+          <form action="">
+            <input type="email" name="email">
+            <input type="submit" name="acao" value="Quero saber mais!">
+          </form>
+          <span>Ou ligue para a Clínica Monguilhott (48) 3222-6591</span>
+        </div>
+        <div class="two">
+          <img src="images/round_images/circle01.png" alt="">
+          <img src="images/round_images/circle02.png" alt="">
+          <img src="images/round_images/circle03.png" alt="">
+          <img src="images/round_images/circle04.png" alt="">
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="diferenciais">
+    <div class="container">
+      <div class="diferencial-single">
+        <img src="images/icones/icone04.png" alt="">
+        <h2>Discreto por ser <b>transparente</b></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit hic libero necessitatibus nobis natus voluptatibus?</p>
+      </div>
+      <div class="diferencial-single">
+        <img src="images/icones/icone02.png" alt="">
+        <h2>Móvel, <b>não atrapalha</b> para comer ou beber</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit hic libero necessitatibus nobis natus voluptatibus?</p>
+      </div>
+      <div class="diferencial-single">
+        <img src="images/icones/icone03.png" alt="">
+        <h2>Livre de fios ou metais <b>muito mais conforto!</b></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit hic libero necessitatibus nobis natus voluptatibus?</p>
+      </div>
+      <div class="diferencial-single">
+        <img src="images/icones/icone06.png" alt="">
+        <h2>Consultas e resultados <b>mais rápidos</b></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit hic libero necessitatibus nobis natus voluptatibus?</p>
+      </div>
+      <div class="diferencial-single">
+        <img src="images/icones/icone01.png" alt="">
+        <h2><b>Não atrapalha</b> para falar ou cantar :)</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit hic libero necessitatibus nobis natus voluptatibus?</p>
+      </div>
+      <div class="diferencial-single">
+        <img src="images/icones/icone05.png" alt="">
+        <h2>Veja o resultado <b>antes de começar!</b></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit hic libero necessitatibus nobis natus voluptatibus?</p>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    $('nav a').hover(function() {
+      $('nav li').removeClass('selected');
+      $(this).parent().addClass('selected')
+    })
+  </script>
+</body>
+</html>
